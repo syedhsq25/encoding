@@ -24,10 +24,20 @@ switch(option){
     base64decoding()    
     break;
     default:
-        console.log("invalid input")
+                console.log("Invalid Input please try again.")
+        setTimeout(() => {
+            main();            
+        }, 3500);
+    }
 
+        const repeat=readlineSync.question("Do you want to continue? (yes/no)")
+        if(repeat=="yes"||repeat=="YES"||repeat=="Y"||repeat=="Yes"||repeat=="y")
+        {
+            return main()
+        }
+        console.log("ADios bye bye ")
 }
 
-}
 
-main()
+
+main();
