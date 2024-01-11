@@ -10,6 +10,12 @@
   "type": "module",
   "license": "ISC",
   "dependencies": {
+    "cli-color": "^2.0.3",
+    "cli-spinners": "^2.9.2",
+    "loading-cli": "^1.1.2",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "colors-cli": "^1.0.33"
   }
 }

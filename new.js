@@ -1,1 +1,2 @@
-hello ho
+import clc from "cli-color"
+console.log(clc.red("hello"))
